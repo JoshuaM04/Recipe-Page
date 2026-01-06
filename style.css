@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: hsl(23, 100%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: fit-content;
+    padding: 50px;
+    background-color: white;
+    width: 20%;
+    border-style: clear;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+img, h1, h2, p, section, ol, ul {
+    margin-bottom: 10px;
+}
+P {
+    font-size: .8rem;
+}
+section {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    border-style: clear;
+}
+ul, ol {
+    list-style-position: inside;
+}
+
