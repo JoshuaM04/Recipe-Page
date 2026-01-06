@@ -78,8 +78,8 @@ One aspect that I would like to focus on in future projects is finding a more ef
 
 - [W3Schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp) - This website page helped me understand how to style the bullet points in a list. 
 - [Stack Overflow](https://stackoverflow.com/questions/339923/set-cellpadding-and-cellspacing-in-css) - This Stack Overflow forum helped me understand how to add cell-spacing within a table and ensure there are no border gaps between cells.
-- [W3docs](https://www.w3docs.com/snippets/css/how-to-style-a-horizontal-line.html) - This webpage page taught me that I could style 'hr' elements in a similar manner to other elements.
-
+- [W3docs](https://www.w3docs.com/snippets/css/how-to-style-a-horizontal-line.html) - This website page taught me that I could style 'hr' elements in a similar manner to other elements.
+- [WebFX](https://www.webfx.com/tools/whats-my-browser-size/) - This webpage helped me determine where my content would break at which width dimension and allowed me to accurately add breakpoints for media queries accordingly.
 ## Author
 
 - Frontend Mentor - [@JoshuaM04](https://www.frontendmentor.io/profile/JoshuaM04)
