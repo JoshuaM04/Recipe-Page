@@ -20,6 +20,7 @@ main {
     width: 21%;
     border-style: clear;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 img {
     width: 100%;
@@ -111,7 +112,11 @@ td {
     position: fixed;
     bottom: 0;
 }
-
+@media (max-width: 2800px) {
+    main {
+        height: fit-content;
+    }
+}
 @media (max-width: 2200px) {
     h1 {
         font-size: 1.3rem;
