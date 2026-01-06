@@ -72,15 +72,28 @@ ul, ol {
 li::marker {
     color: hsl(14, 45%, 36%);
 }
+p.nutrition {
+    border-style: clear;
+    margin-bottom: 10px;
+}
 table {
     width: 100%;
     font-size: .8rem;
+    border-collapse: collapse;
 }
 th.border-bottom, td.border-bottom {
     border-bottom: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th.top-cell, td.top-cell {
+    padding-top: 0;
+}
+th.bottom-cell, td.bottom-cell {
+    padding-top: 10px;
 }
 th {
-    width: 200px;
+    width: 205px;
     color: hsl(30, 10%, 34%);
     text-align: left;
     font-weight: normal;
