@@ -14,7 +14,7 @@ body {
 }
 main {
     min-width: 200px;
-    height: fit-content;
+    height: 93vh;
     padding: 30px;
     background-color: white;
     width: 21%;
@@ -56,9 +56,6 @@ h2 {
 h3 {
     color: hsl(14, 45%, 36%);
 }
-ul, ol {
-    font-size: .8rem;
-}
 li {
     color: hsl(30, 10%, 34%);
     font-size: .7rem;
@@ -85,6 +82,7 @@ table {
     width: 100%;
     font-size: .8rem;
     border-collapse: collapse;
+    border-style: clear;
 }
 th.border-bottom, td.border-bottom {
     border-bottom: 1px solid;
@@ -109,8 +107,210 @@ td {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
 }
-footer {
-    position: absolute;
+.attribution {
+    position: fixed;
     bottom: 0;
-    margin-bottom: 0;
+}
+
+@media (max-width: 2200px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: .98rem;
+    }
+    h3 {
+        font-size: 1.0rem;
+    }
+    p {
+        font-size: .64rem;
+    }
+    li {
+        font-size: .68rem;
+    }
+    table {
+        font-size: .76rem;
+    }
+}
+@media (max-width: 2220px) {
+    main {
+        height: fit-content;
+    }
+}
+@media (max-width: 2000px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2 {
+        font-size: .96rem;
+    }
+    h3 {
+        font-size: .98rem;
+    }
+    p {
+        font-size: .62rem;
+    }
+    li {
+        font-size: .69rem;
+    }
+    li {
+        font-size: .66rem;
+    }
+    table {
+        font-size: .74rem;
+    }
+}
+@media (max-width: 1800px) {
+    h1 {
+        font-size: 1.20rem;
+    }
+    h2 {
+        font-size: .9rem;
+    }
+    h3 {
+        font-size: .96rem;
+    }
+    p {
+        font-size: .60rem;
+    }
+    li {
+        font-size: .64rem;
+    }
+    table {
+        font-size: .72rem;
+    }
+}
+@media (max-width: 1600px) {
+    h1 {
+        font-size: 1.15rem;
+    }
+    h2 {
+        font-size: .85rem;
+    }
+    h3 {
+        font-size: .94rem;
+    }
+    p {
+        font-size: .58rem;
+    }
+    li {
+        font-size: .62rem;
+    }
+    table {
+        font-size: .70rem;
+    }
+}
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 1.1rem;
+    }
+    h2 {
+        font-size: .8rem;
+    }
+    h3 {
+        font-size: .92rem;
+    }
+    p {
+        font-size: .56rem;
+    }
+    li {
+        font-size: .60rem;
+    }
+    table {
+        font-size: .68rem;
+    }
+}
+@media (max-width: 1200px) {
+    main {
+        height: fit-content;
+    }
+    h1 {
+        font-size: 1.05rem;
+    }
+    h2 {
+        font-size: .75rem;
+    }
+    h3 {
+        font-size: .90rem;
+    }
+    p {
+        font-size: .54rem;
+    }
+    li {
+        font-size: .58rem;
+    }
+    table {
+        font-size: .66rem;
+    }
+}
+@media (max-width: 1090px) {
+    table {
+        font-size: .64rem;
+    }
+}
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 1.0rem;
+    }
+    h2 {
+        font-size: .7rem;
+    }
+    h3 {
+        font-size: .88rem;
+    }
+    p {
+        font-size: .52rem;
+    }
+    li {
+        font-size: .56rem;
+    }
+    table {
+        font-size: .64rem;
+    }
+}
+@media (max-width: 800px) {
+    main {
+        height: fit-content;
+    }
+    h1 {
+        font-size: .9rem;
+    }
+    h2 {
+        font-size: .65;
+    }
+    h3 {
+        font-size: .86rem;
+    }
+    p {
+        font-size: .50rem;
+    }
+    li {
+        font-size: .54rem;
+    }
+    table {
+        font-size: .62rem;
+    }
+}
+@media (max-width: 600px) {
+    main {
+        height: fit-content;
+    }
+    h1 {
+        font-size: .8rem;
+    }
+    h2 {
+        font-size: .6rem;
+    }
+    h3 {
+        font-size: .8rem;
+    }
+    p {
+        font-size: .48rem;
+    }
+    li {
+        font-size: .53rem;
+    }
+    table {
+        font-size: .6rem;
+    }
 }

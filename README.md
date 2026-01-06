@@ -72,7 +72,7 @@ In this project, I got to practice my skills with tables. Before this project, I
 
 ### Continued development
 
-One aspect that I would like to focus on in future projects, that I wasn't able to get to in this project due to the complexity, is media queries. In my previous project, a social links profile, I used a desktop-first workflow. However, going forward I would like to start with a mobile-first workflow as I learned that there is more web traffic on mobile platforms. 
+One aspect that I would like to focus on in future projects is finding a more efficient way to use breakpoints for media queries. In my previous project, a social links profile, I used a desktop-first workflow. However, going forward I would like to start with a mobile-first workflow as I learned that there is more web traffic on mobile platforms. 
 
 ### Useful resources
 
